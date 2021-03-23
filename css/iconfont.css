@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icon-font';
+  src:  url('../fonts/icon-font.eot?vcuzcw');
+  src:  url('../fonts/icon-font.eot?vcuzcw#iefix') format('embedded-opentype'),
+    url('../fonts/icon-font.ttf?vcuzcw') format('truetype'),
+    url('../fonts/icon-font.woff?vcuzcw') format('woff'),
+    url('../fonts/icon-font.svg?vcuzcw#icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-partner-1:before {
+  content: "\e900";
+}
+.icon-partner-2:before {
+  content: "\e901";
+}
+.icon-partner-3:before {
+  content: "\e902";
+}
+.icon-partner-4:before {
+  content: "\e903";
+}
+.icon-partner-5:before {
+  content: "\e904";
+}
+.icon-adress:before {
+  content: "\e905";
+}
+.icon-eye-icon:before {
+  content: "\e906";
+}
+.icon-friend-1:before {
+  content: "\e907";
+}
+.icon-friend-2:before {
+  content: "\e908";
+}
+.icon-header-logo:before {
+  content: "\e909";
+}
+.icon-info-bg-1:before {
+  content: "\e90a";
+}
+.icon-info-bg-2:before {
+  content: "\e90b";
+}
+.icon-info-bg-3:before {
+  content: "\e90c";
+}
+.icon-info-bg-4:before {
+  content: "\e90d";
+}
+.icon-info-1:before {
+  content: "\e90e";
+}
+.icon-info-2:before {
+  content: "\e90f";
+}
+.icon-info-3:before {
+  content: "\e910";
+}
+.icon-info-4:before {
+  content: "\e911";
+}
+.icon-instagram:before {
+  content: "\e912";
+}
+.icon-logo-1:before {
+  content: "\e913";
+}
+.icon-logo-site:before {
+  content: "\e914";
+}
+.icon-news-data-bg:before {
+  content: "\e915";
+}
+.icon-phone-icon:before {
+  content: "\e916";
+}
+.icon-search:before {
+  content: "\e917";
+}
+.icon-vk:before {
+  content: "\e918";
+}

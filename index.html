@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Айсберг</title>
+</head>
+<body>
+    <header class="header">
+      <img class="ice-left" src="./img/content/drawing 1.svg" height="650px" alt="">
+      <img class="ice-right" src="./img/content/drawing 2.svg" alt="">
+      <div class="header-top">
+        <div class="container">
+                <div class="contacts">
+                    <form class="search-form">
+                        <input class="form-control search-input me-2" type="search" placeholder="Поиск по сайту" aria-label="Search">
+                        <button class="search-btn" type="submit" >
+                          <i class="icon-search"></i>
+                        </button>
+                      </form>
+                      <div class="phone">
+                          <div class="phone-icon">
+                            <i class="icon-phone-icon"></i>
+                          </div>
+                          <div class="phone_text">
+                              <div class="phone-number">
+                                <a href="tel:+74912505016">+7 (4912) 50-50-16</a>
+                              </div>
+                              <div class="phone-info">
+                                <p>(доб. 1003) <span> - Администратор</span> </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="adress">
+                          <div class="adress-icon">
+                            <i class="icon-adress"></i>
+                          </div>
+                          <div class="adress-info">
+                              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE,+51,+%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C,+%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+390026/@54.6199314,39.7091597,17z/data=!3m1!4b1!4m5!3m4!1s0x4149e2407052929f:0xa76a2903b688dfed!8m2!3d54.6199314!4d39.7113484" target="_blank">
+                                <p>Рязань, ул. Шевченко, 51</p>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="socials">
+                          <div class="inst">
+                              <a href="#" target="_blank" class="icon-instagram">  
+                               </a>
+                          </div>
+                          <div class="vk">
+                            <a href="#" target="_blank" class="icon-vk">
+                                
+                            </a>
+                          </div>
+                      </div>
+                      <div class="header-btn" width="158px" height="47px">
+                        <a class="btn btn-primary ticket-btn" href="#" role="button">Купить билет</a>
+                      </div>
+                      <div>
+                        <button class="eye-btn" type="button">
+                            <i class="icon-eye-icon"></i>
+                          </button>
+                      </div>     
+                </div>
+        </div>
+      </div>
+
+        <div class="logo-section">
+            <div class="container">
+                <object 
+                type="image/svg+xml"
+                data="picture.svg">
+                <img class="col-12" src="./img/icons/header-logo.svg">
+                </object> 
+            </div>    
+        </div>
+
+        <div id="menu-collapse" class="header-menu d-flex align-items-center">
+            <div class="container ">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Об организации</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Спортивная подготовка</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Дополнительные услуги</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Расписание</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Новости</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Анонсы</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Для рекламодателей</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                          </li>         
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+
+        <div class="header-slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="slider-img" src="./img/content/slider-1.jpg" alt="slide"></div>
+            <div class="swiper-slide"><img class="slider-img" src="./img/content/slider-2.jpg" alt="slide"></div>
+            <div class="swiper-slide"><img class="slider-img" src="./img/content/slider-3.jpg" alt="slide"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <section class="information">
+          <div class="container">
+            <div class="information-content row justify-content-between">
+              <div class="card col-12 col-md-6 col-xl-3 text-center">
+                <div> 
+                  <i class="icon-info-1"></i>    
+                </div>
+                <div class="card-body">
+                  <svg width="228" height="71" viewBox="0 0 228 71"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M45.6045 10.5514L30.4898 0.41311L128.225 10.3831L227.179 3.44675L181.081 15.8827L218.897 20.2659L183.932 38.8662L226.106 41.8669L196.315 60.3758L226.573 70.2299L125.694 61.1435L23.9441 64.1331L53.2742 52.2922L12.2355 51.2784L40.0166 34.5078L0.849845 20.059L45.6045 10.5514Z" />
+                    </svg>
+                  <p class="card-text">Информация для <br> родителей</p>
+                </div>
+                 <a href="#">Подробнее</a>                
+              </div>
+              <div class="card col-12 col-md-6 col-xl-3 text-center">
+                <div>
+                  <i class="icon-info-2"></i>
+                </div>
+                <div class="card-body">
+                  <svg width="230" height="80" viewBox="0 0 230 80"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M44.2378 24.4708L28.2477 15.7785L126.486 16.6382L224.37 0.551316L179.625 17.2103L217.685 18.0663L184.596 39.8302L226.866 38.9053L198.921 60.0982L229.962 67.1027L128.675 67.4145L27.6419 79.831L55.7469 65.32L14.7911 68.1179L40.8965 48.8423L0.558248 38.0895L44.2378 24.4708Z"/>
+                    </svg>
+                    
+                  <p class="card-text">Календарь <br> соревнований</p>
+                </div>
+                 <a href="#">Подробнее</a>                
+              </div>
+              <div class="card col-12 col-md-6 col-xl-3 text-center">
+                <div>
+                  <i class="icon-info-3"></i>
+                </div>
+                <div class="card-body">
+                  <svg width="202" height="77" viewBox="0 0 202 77" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40.4024 11.2328L27.691 0.813864L113.341 14.3074L201.118 11.462L159.655 21.7091L192.762 27.4395L160.742 44.0977L197.783 48.6589L170.336 65.4313L196.431 76.1682L107.951 63.4079L17.9524 62.3183L44.5778 51.9908L8.41636 49.3999L33.9809 34.2337L0.307003 18.6942L40.4024 11.2328Z"/>
+                    </svg>
+                    
+                  <p class="card-text">Лучшие <br> спортсмены</p>
+                </div>
+                 <a href="#">Подробнее</a>                
+              </div>
+              <div class="card col-12 col-md-6 col-xl-3 text-center">
+                <div>
+                  <i class="icon-info-4"></i>
+                  
+                </div>
+                <div class="card-body">
+                  <svg width="187" height="76" viewBox="0 0 187 76"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M149.153 10.9175L160.749 0.399341L81.5555 13.0825L0.0840064 8.97184L38.7353 20.0488L8.13343 25.4794L38.1456 43.0065L3.87381 47.184L29.6465 64.7663L5.64222 75.429L87.4739 63.5366L170.933 63.6398L146.043 52.6817L179.536 50.514L155.54 34.6053L186.484 19.1176L149.153 10.9175Z" />
+                    </svg>
+                  <p class="card-text">Тренерский<br> состав</p>
+                </div>
+                 <a href="#">Подробнее</a>                
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="container">
+          <main class="row">
+            <div class="news col-12 col-md-12 col-lg-9">
+              <div class="news_title">
+                <h2>Новости</h2>
+              </div>
+              <div class="news_content">
+                <div class="news-item">
+                  <div class="news_date text-center">
+                    <div class="news_date-value">
+                      <svg width="63" height="50" viewBox="0 0 63 50" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M63 15C63 6.71573 56.2843 0 48 0H-3.8147e-06V35C-3.8147e-06 43.2843 6.71572 50 15 50H63V15Z"/>
+                        </svg>
+                      <p class="value">17</p>
+                    </div>
+                    <p><i>февраля</i></p>
+                  </div>
+                  <div class="news-card card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-2">
+                        <img src="./img/content/news-1.jpg" loading="lazy" class="img-fluid" alt="picture">
+                      </div>
+                      <div class="col-md-10">
+                        <div class="card-body">
+                          <a href="#"><h5 class="card-title">Русский вратарь Сорокин наконец-то победил в НХЛ! И попал в трогательные объятия партнёров</h5></a>
+                          <p class="card-text">Хоккеисты «Айлендерс» поздравляли Илью не только с долгожданным выигранным матчем, но и с заслуженным «сухарём».</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item">
+                  <div class="news_date text-center">
+                    <div class="news_date-value">
+                      <svg width="63" height="50" viewBox="0 0 63 50" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M63 15C63 6.71573 56.2843 0 48 0H-3.8147e-06V35C-3.8147e-06 43.2843 6.71572 50 15 50H63V15Z"/>
+                        </svg>
+                      <p class="value">16</p>
+                    </div>
+                    <p><i>февраля</i></p>
+                  </div>
+                  <div class="news-card card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-2">
+                        <img src="./img/content/news-2.jpg" loading="lazy" class="img-fluid" alt="picture">
+                      </div>
+                      <div class="col-md-10">
+                        <div class="card-body">
+                          <a href="#"><h5 class="card-title">Знарок снова проиграл СКА!Тренер-чемпион всё дальше от плей-офф</h5></a>
+                          <p class="card-text">Олимпийский чемпион Пхёнчхана и его команда так и не оправились от предыдущего разгрома.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item">
+                  <div class="news_date text-center">
+                    <div class="news_date-value">
+                      <svg width="63" height="50" viewBox="0 0 63 50" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M63 15C63 6.71573 56.2843 0 48 0H-3.8147e-06V35C-3.8147e-06 43.2843 6.71572 50 15 50H63V15Z"/>
+                        </svg>
+                      <p class="value">15</p>
+                    </div>
+                    <p><i>февраля</i></p>
+                  </div>
+                  <div class="news-card card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-2">
+                        <img src="./img/content/news-3.jpg" loading="lazy" class="img-fluid" alt="picture">
+                      </div>
+                      <div class="col-md-10">
+                        <div class="card-body">
+                          <a href="#"><h5 class="card-title">«Спартак» Знарка останется без плей-офф? Ключевые интриги финальной части регулярки КХЛ</h5></a>
+                          <p class="card-text">«Ак Барс» и ЦСКА в очном матче сыграют за Кубок Континента, а «Динамо» и «Локомотив» заочно определят, кому рубиться с «Йокеритом».</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div><a href="#" class="news-btn btn btn-primary" role="button" > Все новости</a></div>
+            </div>
+            <div class="announce col-md-8 col-lg-3">
+              <div class="announce_title">
+                <h2>Анонсы</h2>
+              </div>
+              <div class="announce_content">
+                <div class=" announce-card card">
+                  <img src="./img/content/anonce.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <a href="#"><h5 class="card-title">ВСЕ НА ХОККЕЙ!!! Первенство высшей хоккейной лиги</h5></a>
+                    <p>8 февраля 2021</p>
+                    <p class="card-text">Описание данного блока в одно-два предложения. </p>
+                  </div>
+                </div>
+              </div>
+              <div><a href="#" class="announce-btn btn btn-primary" role="button" > Все анонсы</a></div>
+            </div>
+          </main>
+      </div>
+
+          <section class="partners">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="partners_content col-12 col-lg-8">
+                  <div class="partners-title">
+                    <h3>Наши партнеры</h3>
+                  </div>
+                  <div class="partner-swiper swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide partner-slide"><img src="./img/content/partner-1.svg" alt="slide image"></div>
+                      <div class="swiper-slide partner-slide"><img src="./img/content/partner-2.svg" alt="slide image"></div>
+                      <div class="swiper-slide partner-slide"><img src="./img/content/partner-3.svg" alt="slide image"></div>
+                      <div class="swiper-slide partner-slide"><img src="./img/content/partner-4.svg" alt="slide image"></div>
+                      <div class="swiper-slide partner-slide"><img src="./img/content/partner-5.svg" alt="slide image"></div>
+                      <div class="swiper-slide partner-slide"><img src="./img/content/partner-1.svg" alt="slide image"></div>
+                      <div class="swiper-slide partner-slide"><img src="./img/content/partner-2.svg" alt="slide image"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                </div>
+                <div class="partners_links">
+                  <div class="partners-title" style="margin-bottom: 40px;">
+                    <h3>Полезные ссылки</h3>
+                  </div>
+                  <div class="partner_items d-flex text-center ">
+                    <div class="partner-item">
+                      <div class="partner-icon">
+                        <img src="./img/icons/friend-icon-1.svg" width="38px" height="39px" alt="icon">
+                      </div>
+                      <a href="#">Минспорт РО</a>
+                      </div>
+                      <div class="partner-item">
+                        <div class="partner-icon">
+                          <img src="./img/icons/friend-icon-2.svg" width="38px" height="39px" alt="icon">
+                        </div>
+                        <a href="#">Минспорт РФ</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <footer class="footer">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-12 col-lg-4 d-flex flex-column">
+                  <i class="icon-logo-site"></i>
+                  <div class="phone justify-content-start mt-2">
+                    <div class="phone-icon">
+                      <i class="icon-phone-icon"></i>
+                    </div>
+                    <div class="phone_text d-flex justify-content-between ms-2">
+                        <div class="phone-number align-self-center">
+                          <a href="tel:+74912505016">+7 (4912) 50-50-16</a>
+                        </div>
+                        <div class="phone-info align-self-center ms-2">
+                          (доб. 1003) <span> - Администратор</span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="adress justify-content-start mt-2">
+                  <div class="adress-icon">
+                    <i class="icon-adress"></i>
+                  </div>
+                  <div class="adress-info align-self-center ms-2">
+                      <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE,+51,+%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C,+%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+390026/@54.6199314,39.7091597,17z/data=!3m1!4b1!4m5!3m4!1s0x4149e2407052929f:0xa76a2903b688dfed!8m2!3d54.6199314!4d39.7113484" target="_blank">
+                        Рязань, ул. Шевченко, 51
+                      </a>
+                  </div>
+              </div>
+                </div>
+                <div class="col-12 col-lg-4 mt-3">
+                  <ul class="d-flex flex-column">
+                    <li class="footer_item"><a href="" class="footer-link">Официальный сайт РАА "РУСАДА"</a></li>
+                    <li class="footer_item"><a href="" class="footer-link">Образовательный антидопинговый онлайн-ресурс</a></li>
+                    <li class="footer_item"><a href="" class="footer-link">Официальный сервис по проверке препаратов</a></li>
+                    <li class="footer_item"><a href="" class="footer-link">Система ADAMS</a></li>
+                    <li class="footer_item"><a href="" class="footer-link">Информация о дисквалификации</a></li>
+                  </ul>
+                </div>
+                <div class="footer-right col-12 col-lg-2 mt-3 d-flex justify-content-between">
+                  <div class="socials">
+                    <div class="inst">
+                        <a href="#" target="_blank">
+                          <i class="icon-instagram"></i>
+                         </a>
+                    </div>
+                    <div class="vk">
+                      <a href="#" target="_blank">
+                          <i class="icon-vk"></i>
+                      </a>
+                    </div>
+                </div>
+                <img src="./img/icons/footer.jpg" class="footer-statistic" width="88px" height="31px" alt="pic">
+                <div class="brand d-flex justify-content-between">
+                  <img src="./img/icons/logo 1.svg" alt="brand pic">
+                  <div class="brand-name">
+                    <a href="https://galaxydesign.ru/" target="_blank"><span>Создание сайта - </span> <br> студия "Галактика"</a>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+</html>
