@@ -9,10 +9,10 @@ var headerSwiper = new Swiper('.header-slider', {
     pagination: {
         el: '.swiper-pagination',
       },
-      /* autoplay: {
+      autoplay: {
         delay: 2500,
         disableOnInteraction: false,
-      }, */
+      },
   });
 
   var partnerSwiper = new Swiper('.partner-swiper', {
