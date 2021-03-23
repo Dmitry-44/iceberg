@@ -611,6 +611,9 @@ a.nav-link:hover {
   .header-menu {
     height: 82px;
   }
+  .header-menu .container {
+    max-width: unset;
+  }
 
   .slider-img {
     height: 50vw;

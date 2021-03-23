@@ -1,6 +1,10 @@
 @media (max-width: 1400px) {
   .header-menu {
     height: 82px;
+
+    & .container{
+        max-width: unset;
+    }
   }
 
   .slider-img {
